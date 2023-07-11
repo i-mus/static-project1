@@ -1,0 +1,46 @@
+body{
+    color: white;
+    text-align: center;
+    background: rgb(61, 34, 34);
+    font-family: 'Poppins', sans-serif;
+}
+#propic{
+    border: 5px solid rgb(187, 102, 116);
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    box-shadow: 0px 6px 5px black;
+}
+#footer {
+    margin-top: 2%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 20px;   /* Height of the footer */
+    
+ }
+
+i{
+    margin-right: 10px;
+}
+.contents{
+    text-transform: capitalize;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+    
+}
+li{
+    text-align: start;
+    text-transform: capitalize;
+    
+}
+#projects, #achievements, #hobbies{
+    border: 1px dotted blue;
+    width: 33%;
+}
+
+a{
+    color: inherit;
+}
